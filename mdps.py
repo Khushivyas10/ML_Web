@@ -13,11 +13,11 @@ from sklearn.preprocessing import StandardScaler
 
 #Loading the saved Models
 
-Diabetes_model = pickle.load(open("C:/Users/Administrator/Desktop/ME/SEM1/Project/Disease Prediction/Saved Models/diabetes_modell.sav",'rb'))
+Diabetes_model = pickle.load(open("diabetes_modell.sav",'rb'))
 
-Heart_model =pickle.load(open("C:/Users/Administrator/Desktop/ME/SEM1/Project/Disease Prediction/Saved Models/Heart_model.sav",'rb'))
+Heart_model =pickle.load(open("Heart_model.sav",'rb'))
 
-Parkinson_model = pickle.load(open("C:/Users/Administrator/Desktop/ME/SEM1/Project/Disease Prediction/Saved Models/Parkiinson_model.sav",'rb'))
+Parkinson_model = pickle.load(open("Parkiinson_model.sav",'rb'))
 
 scaler = StandardScaler()
 
